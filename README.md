@@ -1,8 +1,9 @@
 # puppeteer-demo
-` demo 说明`
+### 运行说明
+
+按照依赖
 ``` bash
 yarn
-cd demo
 ```
 运行单个demo
 ``` bash
@@ -22,8 +23,7 @@ node launch.js
 
 > 当前Puppeteer最新版本v10.0.0，Chromium 92.0.4512.0 (r884014)
 
-## 简介 
-.    
+## 简介   
 Puppeteer 是一个 Node 库，它提供了一个高级 API 来通过 DevTools Protocol（CDP）协议控制 Chromium 或 Chrome。Puppeteer 默认以 headless 模式运行，但是可以通过修改配置文件运行“有头”模式。
 > Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer runs headless by default, but can be configured to run full (non-headless) Chrome or Chromium.
 
